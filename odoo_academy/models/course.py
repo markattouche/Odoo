@@ -9,11 +9,11 @@ class Course(models.Model):
     name = fields.Char(string='Título', required=True)
     description = fields.Text(string='Descripción')
     
-    level = fields.Selection(string='Level', copy=False, required=True
+    level = fields.Selection(string='Level', required=True
                                 selection=[
                                     ('principiante','Principiante'),
                                     ('intermedio','Intermedio'),
-                                    ('avanzado','Avanzado'),
-                                ], 
+                                    ('avanzado','Avanzado')
+                                ], copy=False
                             )
     active = fields.Boolean(string-'Active', default=True)
