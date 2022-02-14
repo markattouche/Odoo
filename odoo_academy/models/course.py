@@ -7,13 +7,13 @@ class Course(models.Model):
     _description = 'Course Info'
     
     name = fields.Char(string='Título', required=True)
-    description = fields.Text(string='Descripción')
+    description = fields.Text(string='Description')
     
     level = fields.Selection(
         string='Level', selection=[
-            ('principiante','Principiante'),
-            ('intermedio','Intermedio'),
-            ('avanzado','Avanzado')
+            ('beginner','Beginner'),
+            ('intermediate','Intermediate'),
+            ('advanced','Advanced')
         ], copy=False
     )
     active = fields.Boolean(string='Active', default=True)

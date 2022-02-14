@@ -5,7 +5,7 @@
         <record model="academy.course" id="erp_101">
             <field name="name">ERP 101</field>
             <field name="description">Aprenda sobre Sistemas de ERP</field>
-            <field name="level">principiante</field>            
+            <field name="level">beginner</field>            
         </record>
     </data>
     
@@ -17,7 +17,7 @@
                     - Curso intermediario de Contabilidad.
                     - Aprenda sobre costos contables, precios y análisis de beneficios.
             </field>
-            <field name="level">intermedio</field>            
+            <field name="level">intermediate</field>            
         </record>
     </data>
     
@@ -25,7 +25,7 @@
         <record model="academy.course" id="website_500">
             <field name="name">Website 500</field>
             <field name="description"></field>
-            <field name="level">avanzado</field>            
+            <field name="level">advanced</field>            
         </record>
     </data>
     
