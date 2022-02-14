@@ -1,10 +1,10 @@
-# .*. coding: utf-8 .*.
+# -*- coding: utf-8 -*-
 
 {
     'name': 'Odoo Academy',
     'summary': """App académica de Entrenamiento""",
     'description': """
-        Módulo Académico de manejo de Entrenamiento:
+        Modulo Academico de manejo de Entrenamiento:
             - Cursos
             - Sesiones
             - Participantes
