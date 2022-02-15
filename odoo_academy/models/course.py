@@ -2,7 +2,7 @@
 
 
 from odoo import models, fields, api
-from odoo.exeptions import UserError, ValidationError
+from odoo.exceptions import UserError, ValidationError
 
 class Course(models.Model):
     _name = 'academy.course'
