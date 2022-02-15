@@ -2,14 +2,14 @@
 
 {
     'name': 'Odoo Academy',
-    'summary': """App académica de Entrenamiento""",
+    'summary': """Academy app to manage Training""",
     'description': """
-        Modulo Academico de manejo de Entrenamiento:
-            - Cursos
-            - Sesiones
-            - Participantes
+        Academy Module to manage Training:
+        - Cursos
+        - Sesiones
+        - Participantes
     """,
-    'author': 'Minicode',
+    'author': 'Odoo',
     'website': 'https://minicode.odoo.com',
     'category': 'Training',
     'version': '0.1',
@@ -17,7 +17,8 @@
     'data': [
         'security/academy_security.xml',
         'security/ir.model.access.csv',
-        'views/academy_menuitems.xml'
+        'views/academy_menuitems.xml',
+        'views/course_views.xml'
     ],
     'demo': [
         'demo/academy_demo.xml'
