@@ -10,6 +10,9 @@
         - Participantes
     """,
     'author': 'Odoo',
+    'license': 'OEEL-1',
+    'application': True,
+    'installable': True,
     'website': 'https://minicode.odoo.com',
     'category': 'Training',
     'version': '0.1',
