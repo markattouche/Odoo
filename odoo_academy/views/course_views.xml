@@ -55,17 +55,17 @@
             </field>
         </record>
 
-        <record id="course_view_search" model="ir.ui.view">
+        <record id="course_view_pivot" model="ir.ui.view">
             <field name="name">academy.course.pivot</field>
             <field name="model">academy.course</field>
             <field name="arch" type="xml">
-                <search>
+                <pivot>
                     <field name="level" type="row"/>
                     <field name="name" type="row"/>
                     <field name="base_price" type="measure"/>
                     <field name="additional_fee" type="measure"/>
                     <field name="total_price" type="measure"/>
-                </search>
+                </pivot>
             </field>
         </record>
         
