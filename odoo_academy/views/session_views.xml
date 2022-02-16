@@ -11,9 +11,12 @@
                         <group>
                             <group>
                                 <field name="course_id"/>
+                                <field name="instructor_id"/>
                             </group>
                             <group>
-                                <field name="instructor_id"/>
+                                <field name="start_date"/>
+                                <field name="end_date"/>
+                                <field name="duration"/>
                             </group>
                         </group>
                         <notebook>
@@ -37,15 +40,17 @@
             </field>
         </record>
 
-        <!-- <record id="session_view_search" model="ir.ui.view">
-            <field name="name">academy.session.search</field>
+        <record id="session_view_calendar" model="ir.ui.view">
+            <field name="name">academy.session.calendar</field>
             <field name="model">academy.session</field>
             <field name="arch" type="xml">
-                <search>
+                <calendar string="Session Calendar" name="start_date" name="end_date" name="instructor_id" name="month" >
                     <field name="name"/>
                     <field name="instructor_id"/>
-                </search>
+                </calendar>
             </field>
-        </record> -->
+        </record>
+
+        
     </data>
 </odoo>
