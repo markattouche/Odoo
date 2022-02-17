@@ -28,7 +28,7 @@ class SaleWizard(models.TransientModel):
         string='Students for Sales Order'
     )
     
-    def create_sale_order(self):
+    def create_sale_orders(self):
         session_product_id = self.env['product.product'].search(
             [('is_session_procut','=',True)], limit=1)
         
