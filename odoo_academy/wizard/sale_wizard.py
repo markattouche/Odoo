@@ -30,7 +30,7 @@ class SaleWizard(models.TransientModel):
     
     def create_sale_orders(self):
         session_product_id = self.env['product.product'].search(
-            [('is_session_procut','=',True)], limit=1)
+            [('is_session_product','=',True)], limit=1)
         
         if session_product_id:
             for student in self.student_ids:
