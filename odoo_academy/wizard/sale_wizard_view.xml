@@ -20,9 +20,12 @@
             </field>
         </record>
 
-        <act_window id="launch_sale_wizard" name="Create Sale Order"
-                    name="Create Sale Order" binding_model="academy.session"
-                    res_model="academy.sale.wizard" view_mode="form" target="mew"/>
+        <act_window id="launch_sale_wizard"
+                    name="Create Sale Order"
+                    binding_model="academy.session"
+                    res_model="academy.sale.wizard" 
+                    view_mode="form" 
+                    target="mew"/>
 
     </data>
 </odoo>
