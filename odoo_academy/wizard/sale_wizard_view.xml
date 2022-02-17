@@ -12,7 +12,8 @@
                         <field name="student_ids" domain="[('id', 'in', session_student_ids)]"/>
                     </group>
                     <footer>
-                        <button name="create_sale_orders" type="object" string="Create" class="oe_highlight" />
+                        <button name="create_sale_orders" type="object"
+                                string="Create" class="oe_highlight"/>
                         or
                         <button special="cancel" string="Cancel"/> 
                     </footer>
@@ -25,7 +26,7 @@
                     binding_model="academy.session"
                     res_model="academy.sale.wizard" 
                     view_mode="form" 
-                    target="mew"/>
+                    target="new"/>
 
     </data>
 </odoo>
