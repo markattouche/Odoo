@@ -16,7 +16,7 @@
     'website': 'https://minicode.odoo.com',
     'category': 'Training',
     'version': '0.1',
-    'depends': ['sale,sale_management'],
+    'depends': ['sale'],
     'data': [
         'security/academy_security.xml',
         'security/ir.model.access.csv',
