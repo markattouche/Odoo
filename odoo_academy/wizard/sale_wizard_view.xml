@@ -21,7 +21,7 @@
             </field>
         </record>
 
-        <act_window id="launch_sale_wizard"
+        <record id="launch_sale_wizard"
                     name="Create Sale Order"
                     binding_model="academy.session"
                     res_model="academy.sale.wizard" 
